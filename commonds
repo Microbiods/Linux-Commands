@@ -1,0 +1,16 @@
+Linux commands:
+
+
+跳转到文件头部
+gg
+
+跳转到文件尾部
+shift+G
+
+光标处往前/光标处往后删除
+ctrl+u   ctrl+k   
+
+光标移动到最前/最后
+ctrl+a   ctrl+e   
+
+
