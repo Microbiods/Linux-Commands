@@ -1,0 +1,27 @@
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Microbiods/Micro_GRU.git
+ git push -u origin master
+ 
+  git push -u origin master
+  
+  git status
+  
+  
+  
+  clone
+  git@github.com:username/xxx.git
+  
+  to 
+  
+  git@company:username/xxx.git
+  
+  
+   git clone git@personal:XingjChen/daily-test.git
+   
+   
+   ~  cd bootstrap
+~  git checkout -b test-pr
+~  git add . && git commit -m "test-pr"
+~  git push origin test-pr
