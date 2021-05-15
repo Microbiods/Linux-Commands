@@ -32,3 +32,10 @@ fi
 
 那么linux就不会自动执行~/.bashrc文件，所以你每次登陆的时候都要手动输入source ~/.bashrc。
 所以需要vi ~/.bash_profile 添加代码块中的内容
+
+
+
+
+
+
+fuser -v /dev/nvidia* |awk '{for(i=1;i<=NF;i++)print "kill -9 " $i;}' | sh
